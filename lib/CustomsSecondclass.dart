@@ -5,20 +5,12 @@ import 'package:flutter_ui/Custompopupmenu.dart';
 
 
 class CustomSecondclass extends StatefulWidget{
-
   @override
   MyState createState() => MyState();
-
 }
-
 class MyState  extends State<CustomSecondclass>  {
-
-
-
   @override
   Widget build(BuildContext context) {
-
-
     return  Stack(
       children: [
         Container(
@@ -46,8 +38,7 @@ class MyState  extends State<CustomSecondclass>  {
                           width: 1,),
                         image : DecorationImage(
                             image: AssetImage('images/person.png'),
-                            fit: BoxFit.fitWidth
-                        ),
+                            fit: BoxFit.fitWidth),
                         borderRadius : BorderRadius.all(Radius.elliptical(37, 37)),
                       )),
                   SizedBox(width: 8),
@@ -67,7 +58,7 @@ class MyState  extends State<CustomSecondclass>  {
                         child: Text('BCA S1', style: TextStyle(
                           color: Color.fromRGBO(15, 82, 186, 1),
                           fontSize: 12,
-                          fontWeight: FontWeight.normal,),),),
+                        ),),),
                     ],),
                   PopupMenuButton(
                   child: Image(image: AssetImage('images/menu_vert.png'),
@@ -103,25 +94,20 @@ class MyState  extends State<CustomSecondclass>  {
                                        fontSize: 15)),
                             IconButton(icon: Image.asset('images/spam.png'), onPressed: () {  },) ,
                              ],)),]
-                      ),],
-              )
-            ]
-    ),
+                      ),],)]),
         ),
         Positioned(
           top:60,
           left: 25,
           child:Text('Attach the file of function overloading', textAlign: TextAlign.left, style: TextStyle(
               color: Color.fromRGBO(0, 0, 0, 1),
-              fontSize: 16,
-              fontWeight: FontWeight.normal),), ),
+              fontSize: 16,),), ),
         Positioned(
           top:100,
           left: 25,
           child: Text('Students go through the ppt its an important part.If \n you have any doubt comment below', textAlign: TextAlign.left, style: TextStyle(
               color: Color.fromRGBO(0, 0, 0, 1),
-              fontSize: 12,
-              fontWeight: FontWeight.normal),), ),
+              fontSize: 12,),), ),
         Positioned(
           top:150,
           left: 20,
@@ -142,8 +128,7 @@ class MyState  extends State<CustomSecondclass>  {
               customSecondbox(image: 'images/docs.png'),
               SizedBox(width: 25),
               customSecondbox(image: 'images/pdf.png'),
-            ],
-          ),),
+            ],),),
         Positioned(
           top:200,
           left: 10,
@@ -176,16 +161,11 @@ class MyState  extends State<CustomSecondclass>  {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text('Add a public comment......', style: TextStyle(
-                      color: Color.fromRGBO(196, 196, 196, 1),
-                      fontSize: 10,
+                      color: Color.fromRGBO(196, 196, 196, 1), fontSize: 10,
                     ),),
                     Image(image: AssetImage('images/send.png')),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
+                  ]),),
+            ],),),
         Positioned(
           top:255,
           left: 25,
@@ -207,12 +187,10 @@ class MyState  extends State<CustomSecondclass>  {
                 SizedBox(width: 10),
                 Text('Mathew', textAlign: TextAlign.left, style: TextStyle(
                     color: Color.fromRGBO(0, 0, 0, 1),
-                    fontFamily: 'Maven Pro',
                     fontSize: 8,),),
                 SizedBox(width: 160),
                 Text('12/2/2020 03:00PM', textAlign: TextAlign.right, style: TextStyle(
                     color: Color.fromRGBO(196, 196, 196, 1),
-                    fontFamily: 'Maven Pro',
                     fontSize: 6,),),],),
           ),),
         Positioned(
@@ -220,8 +198,7 @@ class MyState  extends State<CustomSecondclass>  {
             left: 55,
             child:  Text('Sir i have doubt about. How can i use function overload with the \n string data type? ', textAlign: TextAlign.left, style: TextStyle(
               color: Color.fromRGBO(0, 0, 0, 1),
-              fontSize: 8,
-            ),)),
+              fontSize: 8,),)),
         Positioned(
             top:310,
             right: 45,

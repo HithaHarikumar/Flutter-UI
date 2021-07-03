@@ -21,9 +21,7 @@ class CustomBoxcontainer extends StatelessWidget{
                 bottomLeft: Radius.circular(19),
                 bottomRight: Radius.circular(19),),
               boxShadow: [BoxShadow(
-                  color: Color.fromRGBO(0, 0, 0, 0.25),
-                  offset: Offset(0, 4),
-                  blurRadius: 4)],
+                  color: Color.fromRGBO(0, 0, 0, 0.25),)],
               color: Color.fromRGBO(230, 236, 246, 1),)),
         Positioned(
           top: 10,
@@ -51,8 +49,7 @@ class CustomBoxcontainer extends StatelessWidget{
             style: TextStyle(
                 color: Color.fromRGBO(0, 0, 0, 1),
                 fontSize: 15,
-                fontWeight: FontWeight.bold,
-                height: 1),),),
+                fontWeight: FontWeight.bold,),),),
         Positioned(
           top: 15,
           right: 25,
@@ -60,8 +57,7 @@ class CustomBoxcontainer extends StatelessWidget{
             style: TextStyle(
                 color: Color.fromRGBO(196, 196, 196, 1),
                 fontSize: 8,
-                fontWeight: FontWeight.normal,
-                height: 1),),),
+                fontWeight: FontWeight.normal,),),),
         Positioned(
           top: 50,
           left: 15,
@@ -72,8 +68,7 @@ class CustomBoxcontainer extends StatelessWidget{
                 fontFamily: 'Maven Pro',
                 fontSize: 15.435042381286621,
                 letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
-                fontWeight: FontWeight.normal,
-                height: 1),),),
+                fontWeight: FontWeight.normal,),),),
         Positioned(
           top: 80,
           left: 15,
@@ -92,8 +87,7 @@ class CustomBoxcontainer extends StatelessWidget{
             textAlign: TextAlign.left, style: TextStyle(
                 color: Color.fromRGBO(0, 0, 0, 1),
                 fontSize: 12,
-                fontWeight: FontWeight.normal,
-                height: 1),),),
+                fontWeight: FontWeight.normal,),),),
         Positioned(
           top: 120,
           left: 80,

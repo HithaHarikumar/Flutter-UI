@@ -25,9 +25,7 @@ class CustomSearch extends StatelessWidget{
                textAlign: TextAlign.left,
                style: TextStyle(
                  color: Color.fromRGBO(15, 82, 186, 1),
-                 fontSize: 16,
-                 letterSpacing: 0,
-                 fontWeight: FontWeight.normal,),),
+                 fontSize: 16,),),
            ),
            Positioned(
              right: 10.0,

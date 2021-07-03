@@ -35,17 +35,13 @@ class CustomClass extends StatelessWidget{
               ),
               boxShadow : [BoxShadow(
                   color: Color.fromRGBO(0, 0, 0, 0.25),
-                  offset: Offset(0,4.53),
-                  blurRadius: 4.53
               )],
               color : Color.fromRGBO(230, 236, 246, 1),
               image : DecorationImage(
                   colorFilter: ColorFilter.mode(Colors.white54.withOpacity(0.2), BlendMode.dstATop),
                   image: AssetImage(image),
                   fit: BoxFit.fitWidth),)
-        ) ,
-      ),
-
+        ) ,),
     Positioned(
     top: 5,
     right: 12.5,
@@ -56,9 +52,7 @@ class CustomClass extends StatelessWidget{
     child: Text(headingtext,
     textAlign: TextAlign.left, style: TextStyle(
     color: Color.fromRGBO(0, 0, 0, 1),
-    fontSize: 28,
-    fontWeight: FontWeight.normal,
-    height: 1),),),
+    fontSize: 28,),),),
     Positioned(
       top: 85,
       left: 30,

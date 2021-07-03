@@ -44,17 +44,14 @@ class CustomCard extends StatelessWidget{
                style: TextStyle(
                    color: Color.fromRGBO(0, 0, 0, 1),
                    fontSize: 18,
-                   fontWeight: FontWeight.bold,
-                    height: 1),),),
+                   fontWeight: FontWeight.bold,),),),
                Positioned(
                  top: 70,
                  left: 15,
                  child: Text('Attach the file of function \n overloading', textAlign: TextAlign.left,
                    style: TextStyle(
                        color: Color.fromRGBO(0, 0, 0, 1),
-                       fontSize: 11,
-                       fontWeight: FontWeight.normal,
-                       height: 1),),),
+                       fontSize: 11,),),),
                Positioned(
                    top: 98,
                    left: 10,
@@ -75,9 +72,7 @@ class CustomCard extends StatelessWidget{
                      left: 8,
                    child: Text('AabcD1234', textAlign: TextAlign.left, style: TextStyle(
                        color: Color.fromRGBO(0, 0, 0, 1),
-                       fontSize: 6,
-                       fontWeight: FontWeight.normal,
-                       height: 1),),) ,
+                       fontSize: 6,),),) ,
                    Positioned(
                      top: 2,
                      right: 8,

@@ -28,9 +28,9 @@ class Home extends  StatelessWidget {
               ),
               centerTitle: true,
               actions: [Padding(
-                 padding: EdgeInsets.all(10.0),
+                 padding: EdgeInsets.all(10),
                    child: Container(
-                  padding: EdgeInsets.all(16.0),
+                  padding: EdgeInsets.all(16),
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     image: DecorationImage(
@@ -41,12 +41,11 @@ class Home extends  StatelessWidget {
               ],),
         body: SizedBox(
               child:  ListView(
-
                 scrollDirection: Axis.vertical,
                 shrinkWrap: true,
                 children: [ Column(
                     children: <Widget>[
-                      Padding(padding: EdgeInsets.symmetric(horizontal: 150,)),
+                      Padding(padding: EdgeInsets.symmetric(horizontal: 150)),
                    CustomSearch(),
                       CustomHeading(text: 'Request'),
                       CustomBoxcontainer(text: 'Join MCA S3 classroom'),
