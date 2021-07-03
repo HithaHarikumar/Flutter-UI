@@ -7,8 +7,10 @@ import 'package:flutter_ui/CustomSearch.dart';
 import 'package:flutter_ui/SecondHome.dart';
 
 class Home extends  StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
         appBar: AppBar(
               backgroundColor: Colors.white24,
@@ -39,10 +41,12 @@ class Home extends  StatelessWidget {
               ],),
         body: SizedBox(
               child:  ListView(
+
                 scrollDirection: Axis.vertical,
                 shrinkWrap: true,
                 children: [ Column(
                     children: <Widget>[
+                      Padding(padding: EdgeInsets.symmetric(horizontal: 150,)),
                    CustomSearch(),
                       CustomHeading(text: 'Request'),
                       CustomBoxcontainer(text: 'Join MCA S3 classroom'),
@@ -50,13 +54,14 @@ class Home extends  StatelessWidget {
                       CustomBoxcontainer(text: 'Join MCA S4 classroom'),
                       SizedBox(height: 20),
                       CustomClass(image: 'images/classroom.png',
-                          headingtext: 'All Classroom', onPressed: () {  },),
+                          headingtext: 'All Classroom', onPressed: () { },),
                       SizedBox(height: 25),
                       CustomHeading(text: 'Group'),
                       SizedBox(height: 10),
                       CustomClass(image: 'images/Theory.png',
                           headingtext: 'Bca Sem-1 Theory', onPressed: () {
-                        Navigator.push(context, MaterialPageRoute(builder:(context) => SecondHome()));                      },),
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => SecondHome()));
+                        },),
                       SizedBox(height: 15),
                       CustomClass(image: 'images/Project.png',
                           headingtext: 'Bca Sem-1 Project', onPressed: () {  },),
