@@ -73,7 +73,7 @@ class Home extends  StatelessWidget {
                         children: [
                           Row(
                           children: [
-                            SizedBox(width: 10),
+                            SizedBox(width: 15),
                             CustomCard(text: 'CPP', image: 'images/Cpp.png'),
                             SizedBox(width: 20),
                             CustomCard(text: 'Java', image: 'images/Java.png'),

@@ -17,19 +17,34 @@ class _secondHome  extends State<SecondHome>{
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white24,
-        leading:Padding(
+        leading: Padding(
           padding: EdgeInsets.all(16.0),
           child: Row(
-          children: [
-            Image(image: AssetImage('images/menu.png'), fit: BoxFit.scaleDown),
-            SizedBox(width: 8),
-            Image(image: AssetImage('images/ed.png'), fit: BoxFit.scaleDown),
-            SizedBox(width: 50,),
-            Text('BCA Sem 1 theory', style: TextStyle(
-              color: Color.fromRGBO(2, 12, 26, 1),
-              fontSize: 18,
-              fontWeight: FontWeight.bold,),),
-          ],),),
+            children: [
+              Image(image: AssetImage('images/menu.png'),),
+              // Image(image: AssetImage('images/ed.png'),),
+            ],
+          )
+          ),
+          //     fit: BoxFit.fill),),
+          // child: Row(
+          // children: [
+          //   Image(image: AssetImage('images/menu.png'), fit: BoxFit.scaleDown),
+          //   // SizedBox(width: 8),
+          //   // Image(image: AssetImage('images/ed.png'), fit: BoxFit.scaleDown),
+          //   SizedBox(width: 50,),
+            title: Container(
+              width: 150,
+              height: 60,
+             child:
+             Center(
+               child: Text('BCA Sem 1 theory', style: TextStyle(
+                 color: Color.fromRGBO(2, 12, 26, 1),
+                 fontSize: 18,
+                 fontWeight: FontWeight.bold,),),
+             ),
+            ),
+        centerTitle: true,
         actions: [Padding(
           padding: EdgeInsets.all(10.0),
           child: Container(
@@ -48,13 +63,14 @@ class _secondHome  extends State<SecondHome>{
           shrinkWrap: true,
           children: [ Column(
             children: <Widget>[
+              Padding(padding: EdgeInsets.symmetric(horizontal: 150)),
               SizedBox(height: 20),
               CustomSearch(),
               SizedBox(height: 20),
               CustomSecondclass(),
               SizedBox(height: 25),
               CustomSecondclass(),
-              SizedBox(height: 5)
+              SizedBox(height: 20)
             ],),
           ],),),
       bottomNavigationBar: BottomNavigationBar(
